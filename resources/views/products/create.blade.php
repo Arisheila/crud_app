@@ -20,7 +20,7 @@
     @endif
 </div>
 
-    <form method="POST" action="{{ route('product.store') }}">
+    <form method="POST" action="{{ route('product.store')}}">
         <!-- for security purposes use @csrf in php -->
         @csrf
         @method("POST")
